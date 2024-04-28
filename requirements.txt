@@ -1,2 +1,4 @@
 flet==0.22.*
 pyodbc==5.1.0
+scikit-learn==1.2.2
+joblib
