@@ -1,7 +1,7 @@
 from flet import Container, Column, ResponsiveRow, CircleAvatar, Text, ListTile, Icon, IconButton, TextField, ScrollMode, MainAxisAlignment, CrossAxisAlignment, alignment, FontWeight, padding, colors, icons
 from joblib import load
 
-model = load('clinic-management-system/model/model.joblib')
+model = load('model/model.joblib')
 
 class Message(Container):
     def __init__(self, text:str, sender:str):
