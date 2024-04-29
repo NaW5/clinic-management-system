@@ -11,6 +11,8 @@ from .equipmentsDAO import EquipmentsDAO
 from .employeesDAO import EmployeesDAO
 from .providersDAO import ProvidersDAO
 
-connection_string = 'DRIVER={ODBC Driver 17 for SQL Server}; SERVER=tcp:NaWW,1433; DATABASE=clinic; Trusted_Connection=yes;'
+database = 'clinic'
+server = '.'
+connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}}; SERVER={server}; DATABASE={database}; Trusted_Connection=yes;'
 connection_pool = ODBCConnectionPool(connection_string)
 
